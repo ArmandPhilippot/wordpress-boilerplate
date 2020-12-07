@@ -1,0 +1,34 @@
+{
+  "name": "wordpress-boilerplate",
+  "version": "0.0.1",
+  "description": "A WordPress theme boilerplate including Gulp and BrowserSync.",
+  "author": "Armand Philippot",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/ArmandPhilippot/wordpress-boilerplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArmandPhilippot/wordpress-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArmandPhilippot/wordpress-boilerplate/issues"
+  },
+  "keywords": [
+    "WordPress",
+    "theme",
+    "boilerplate"
+  ],
+  "scripts": {
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.3.0",
+    "standard-version": "^9.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
