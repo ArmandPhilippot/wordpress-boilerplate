@@ -4,7 +4,7 @@
 
 A boilerplate for developing WordPress themes.
 
-**It is not yet 100% functional. There is still a problem with recompiling scss when the version is incremented. I have not tested transpilation with Babel. I haven't tested anywhere other than Linux.**
+**It is not yet 100% functional. There is still a problem with recompiling scss when the version is incremented. I have not tested transpile with Babel. I haven't tested anywhere other than Linux.**
 
 ## Introduction
 
@@ -32,7 +32,7 @@ The Gulpfile allows you to:
 
 ## Requirements
 
-- In order to avoid the warnings related to the use of `https`, you will need a valid certificate. You can achieve this with [mkcert](https://github.com/FiloSottile/mkcert).
+- In order to avoid the warnings related to the local use of `https`, you will need a valid certificate. You can achieve this with [mkcert](https://github.com/FiloSottile/mkcert).
 
 - This boilerplate use Standard version to generate a changelog and Husky to validate commits, so you need to follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
