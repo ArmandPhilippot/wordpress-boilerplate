@@ -1,28 +1,27 @@
 # WordPress Boilerplate
 
-![License](https://img.shields.io/github/license/ArmandPhilippot/wordpress-boilerplate?label=License&style=flat-square) ![Version](https://img.shields.io/github/package-json/v/ArmandPhilippot/wordpress-boilerplate?label=Version&style=flat-square)
+![License](https://img.shields.io/github/license/ArmandPhilippot/wordpress-boilerplate?color=blue&colorA=4c4f56&label=License&style=flat-square) ![Version](https://img.shields.io/github/package-json/v/ArmandPhilippot/wordpress-boilerplate?color=blue&colorA=4c4f56&label=Version&style=flat-square)
 
 A boilerplate for developing WordPress themes.
 
-**It is not yet 100% functional. I have not tested transpile with Babel. I haven't tested anywhere other than Linux.**
-
 ## Introduction
 
-This boilerplate is designed to facilitate WordPress theme development. It offers live reloading and it support `https`.
+This boilerplate is designed to facilitate WordPress theme development. It offers live reloading and it support local `https`.
 
-It includes:
+**It includes:**
 
-- [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with [WordPress Coding Standards](https://github.com/WordPress/WordPress-Coding-Standards)
+- [BrowserSync](https://browsersync.io/)
 - [Dotenv](https://github.com/motdotla/dotenv)
 - [Gulp](https://gulpjs.com/)
-- [BrowserSync](https://browsersync.io/)
-- [Standard version](https://github.com/conventional-changelog/standard-version)
 - [Husky](https://github.com/typicode/husky)
+- [Normalize.css](https://github.com/necolas/normalize.css/)
+- [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with [WordPress Coding Standards](https://github.com/WordPress/WordPress-Coding-Standards)
+- [Standard version](https://github.com/conventional-changelog/standard-version)
 
-The Gulpfile allows you to:
+**The Gulpfile allows you to:**
 
 - Initialize your theme with the correct information obtained by the dotenv file.
-- Generate `style.css`, `style-rtl.css`, `print.css` and `style-editor.css`. Compile Scss to Css, autoprefix and minify.
+- Generate `style.css`, `style-rtl.css`, `print.css` and `style-editor.css`. Compile SCSS to CSS, autoprefix and minify.
 - Transpile, concat and minify your JS scripts.
 - Compress your images (JPG, PNG, GIF and SVG).
 - Generate a `.pot` file for translation.
@@ -46,13 +45,15 @@ Clone this repo, copy `wordpress-theme` in your WordPress installation and renam
 
 1. Init Git (otherwise Husky will not want to install)
 2. Launch `npm install` and `composer update`
-3. Generate a local certificate for localhost in `/certs`
+3. Generate a local certificate for `localhost` in `/certs` (BrowserSync redirects your virtual host to `localhost`)
 4. Copy `.env.example` and rename it `.env`
 5. Edit your `.env` file to suit your project.
 6. Launch `npm run init`
 7. You may want to relaunch `npm install` so that your `package-lock.json` contain the correct information.
 
 That's it! You can now start developing your theme.
+
+If you wish to add additional paths for Gulp or modify certain options (compression of images for example), you will have to edit `gullp-config.js`.
 
 ### Develop your theme
 
