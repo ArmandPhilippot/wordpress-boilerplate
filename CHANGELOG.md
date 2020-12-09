@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/ArmandPhilippot/wordpress-boilerplate/compare/v0.0.2...v1.0.0) (2020-12-09)
+
+
+### Features
+
+* add and configure Babel to be used in Gulp ([c48e2d8](https://github.com/ArmandPhilippot/wordpress-boilerplate/commit/c48e2d80a29e8e593a8232848fc8d060006f7af5))
+
+
+### Docs
+
+* add instructions for Gulp config, refactor the doc ([80b40fc](https://github.com/ArmandPhilippot/wordpress-boilerplate/commit/80b40fc619f3f572fc0110bbcf404686d3c7e45d))
+* remove the bug alert concerning bumpCSS ([2310068](https://github.com/ArmandPhilippot/wordpress-boilerplate/commit/231006815dd950723ebd09764a1bfe6ad37bc564))
+
 ### [0.0.2](https://github.com/ArmandPhilippot/wordpress-boilerplate/compare/v0.0.1...v0.0.2) (2020-12-09)
 
 

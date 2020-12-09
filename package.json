@@ -1,6 +1,6 @@
 {
   "name": "wordpress-boilerplate",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A WordPress theme boilerplate including Gulp and BrowserSync.",
   "author": "Armand Philippot",
   "license": "GPL-2.0-or-later",
