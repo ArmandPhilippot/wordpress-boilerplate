@@ -4,7 +4,7 @@
 
 A boilerplate for developing WordPress themes.
 
-**It is not yet 100% functional. There is still a problem with recompiling scss when the version is incremented. I have not tested transpile with Babel. I haven't tested anywhere other than Linux.**
+**It is not yet 100% functional. I have not tested transpile with Babel. I haven't tested anywhere other than Linux.**
 
 ## Introduction
 
