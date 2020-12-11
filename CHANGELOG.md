@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/ArmandPhilippot/wordpress-boilerplate/compare/v1.0.1...v1.1.0) (2020-12-11)
+
+
+### Features
+
+* add an error handler to prevent interruption of Gulp watch ([a88188a](https://github.com/ArmandPhilippot/wordpress-boilerplate/commit/a88188ae95bb92bb0ef13a6f9df3e0e36ddd5a83))
+
 ### [1.0.1](https://github.com/ArmandPhilippot/wordpress-boilerplate/compare/v1.0.0...v1.0.1) (2020-12-10)
 
 
