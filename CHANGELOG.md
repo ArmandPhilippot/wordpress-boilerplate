@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/ArmandPhilippot/wordpress-boilerplate/compare/v1.1.0...v1.1.1) (2020-12-11)
+
+
+### Bug Fixes
+
+* add onLast option to prevent double notifications ([72302e0](https://github.com/ArmandPhilippot/wordpress-boilerplate/commit/72302e09d9ae522f54c3daedcfff422349a64139))
+
 ## [1.1.0](https://github.com/ArmandPhilippot/wordpress-boilerplate/compare/v1.0.1...v1.1.0) (2020-12-11)
 
 
