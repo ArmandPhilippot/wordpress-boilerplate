@@ -53,7 +53,9 @@ Clone this repo, copy `wordpress-theme` in your WordPress installation and renam
 
 That's it! You can now start developing your theme.
 
-If you wish to add additional paths for Gulp or modify certain options (compression of images for example), you will have to edit `gullp-config.js`.
+If you wish to add additional paths for Gulp or modify certain options (compression of images for example), you will have to edit `gulp/config.js`.
+
+If you want to add new plugins, you might want to edit `gulp/error-handler.js` to add an error handler for these plugins.
 
 ### Develop your theme
 
