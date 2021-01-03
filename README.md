@@ -45,7 +45,7 @@ Clone this repo, copy `wordpress-theme` in your WordPress installation and renam
 
 1. Init Git (otherwise Husky will not want to install)
 2. Launch `npm install` and `composer update`
-3. Generate a local certificate for `localhost` in `/certs` (BrowserSync redirects your virtual host to `localhost`)
+3. Generate a local certificate for your virtual host in `/certs`
 4. Copy `.env.example` and rename it `.env`
 5. Edit your `.env` file to suit your project.
 6. Launch `npm run init`
@@ -81,7 +81,7 @@ Most of these tasks use Gulp. If you want to edit or add paths to Gulp, you need
 
 1. `git init`, then add your remote
 2. `npm install && composer update`
-3. `mkcert -cert-file ./certs/localhost.pem -key-file ./certs/localhost.pem localhost`
+3. `mkcert -cert-file ./certs/your-virtualhost.test.pem -key-file ./certs/your-virtualhost.test.key your-virtualhost.test`
 4. `cp .env.example .env`
 5. Edit your `.env` file to suit your project.
 6. `npm run init`
