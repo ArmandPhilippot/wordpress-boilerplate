@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/ArmandPhilippot/wordpress-boilerplate/compare/v1.1.1...v1.2.0) (2021-01-03)
+
+
+### Features
+
+* use BrowserSync with local domain instead of localhost ([76653ae](https://github.com/ArmandPhilippot/wordpress-boilerplate/commit/76653ae7e2011b9900876c58c2fdd24b358cc92d))
+
 ### [1.1.1](https://github.com/ArmandPhilippot/wordpress-boilerplate/compare/v1.1.0...v1.1.1) (2020-12-11)
 
 
